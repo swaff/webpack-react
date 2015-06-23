@@ -1,0 +1,24 @@
+{
+  "name": "webpack-react",
+  "version": "1.0.0",
+  "description": "Simple template for webpack and react",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline"
+  },
+  "author": "Mark Swaffer",
+  "private": true,
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^5.6.4",
+    "babel-loader": "^5.1.4",
+    "file-loader": "^0.8.4",
+    "node-libs-browser": "^0.5.2",
+    "react-hot-loader": "^1.2.7",
+    "webpack": "^1.9.11",
+    "webpack-dev-server": "^1.9.0"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
